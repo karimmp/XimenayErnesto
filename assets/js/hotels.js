@@ -2,56 +2,56 @@ const HotelsManager = {
     hotels: [
         {
             name: "La Lupitas",
-            image: "~/assets/images/hotels/lupitas.jpg",
+            image: "./assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Narrativ Loft",
-            image: "assets/images/hotels/lupitas.jpg",
+            image: "./assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hotel Casa Piedad",
-            image: "/assets/images/hotels/lupitas.jpg",
+            image: "./assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hotel El Navegante",
-            image: "assets/images/hotels/lupitas.jpg",
+            image: "./assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hacienda Uayamon",
-            image: "assets/images/hotels/lupitas.jpg",
+            image: "./assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "City Express by Marriot",
-            image: "assets/images/hotels/lupitas.jpg",
+            image: "./assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hotel del Paseo",
-            image: "assets/images/hotels/lupitas.jpg",
+            image: "./assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hotel Gamma by Fiesta Inn",
-            image: "assets/images/hotels/lupitas.jpg",
+            image: "./assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
