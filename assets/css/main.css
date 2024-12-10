@@ -21,7 +21,7 @@ body {
     color: var(--color-text);
     line-height: 1.6;
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
-                url('../assets/images/marble-bg.webp') center/cover fixed;
+                url('../images/marble-bg.webp') center/cover fixed;
 }
 
 .container {
