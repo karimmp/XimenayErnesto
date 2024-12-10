@@ -1,0 +1,81 @@
+/* main.css */
+:root {
+    --color-beige: #d4c9c0;
+    --color-gold: #c5b299;
+   /* --color-text: #867b71;*/
+   --color-text: #777777;
+    --font-main: 'Work Sans', sans-serif;
+    --font-display: 'Bodoni Moda', serif;
+    --font-script: 'Birthstone', cursive;
+}
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--color-text);
+    line-height: 1.6;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+                url('/assets/images/marble-bg.webp') center/cover fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Common Components */
+.section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.section-title {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--color-text);
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    /*background-color: var(--color-gold);*/
+    background: transparent;
+    color: var(--color-gold);
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px solid var(--color-gold);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-family: var(--font-main);
+    font-size: 1.1rem;
+}
+
+.button:hover {
+    background-color: var(--color-beige);
+    color: var(--color-text);
+}
+
+.button-directions {
+    margin-left: 1rem;
+    background-color: var(--color-beige);
+}
+
+.button-directions:hover {
+    background-color: var(--color-gold);
+}
+
+/* Para móviles, los botones se apilan */
+@media (max-width: 768px) {
+    .button-directions {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}

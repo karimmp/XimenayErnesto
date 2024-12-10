@@ -1,0 +1,41 @@
+/* animations.css */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply animations to sections */
+.hero > * {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.section {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.section:nth-child(odd) {
+    animation: slideIn 1s ease-out forwards;
+}
+
+/* Stagger children animations */
+.hero > *:nth-child(1) { animation-delay: 0.2s; }
+.hero > *:nth-child(2) { animation-delay: 0.4s; }
+.hero > *:nth-child(3) { animation-delay: 0.6s; }
