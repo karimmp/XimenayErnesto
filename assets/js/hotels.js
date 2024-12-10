@@ -2,7 +2,7 @@ const HotelsManager = {
     hotels: [
         {
             name: "La Lupitas",
-            image: "assets/images/hotels/lupitas.jpg",
+            image: "~/assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
@@ -16,7 +16,7 @@ const HotelsManager = {
         },
         {
             name: "Hotel Casa Piedad",
-            image: "assets/images/hotels/lupitas.jpg",
+            image: "/assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
