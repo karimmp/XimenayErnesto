@@ -9,49 +9,49 @@ const HotelsManager = {
         },
         {
             name: "Narrativ Loft",
-            image: "assets/images/hotels/narrativ.jpg",
+            image: "assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hotel Casa Piedad",
-            image: "assets/images/hotels/casa-piedad.jpg",
+            image: "assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hotel El Navegante",
-            image: "assets/images/hotels/navegante.jpg",
+            image: "assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hacienda Uayamon",
-            image: "assets/images/hotels/uayamon.jpg",
+            image: "assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "City Express by Marriot",
-            image: "assets/images/hotels/city-express.jpg",
+            image: "assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hotel del Paseo",
-            image: "assets/images/hotels/paseo.jpg",
+            image: "assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
         },
         {
             name: "Hotel Gamma by Fiesta Inn",
-            image: "assets/images/hotels/gamma.jpg",
+            image: "assets/images/hotels/lupitas.jpg",
             phone: "",
             website: "",
             booking: ""
@@ -63,7 +63,7 @@ const HotelsManager = {
         container.innerHTML = this.hotels.map(hotel => `
             <div class="hotel-card">
                 <div class="hotel-image">
-                    <img src="${hotel.image}" alt="${hotel.name}" onError="this.src='assets/images/hotels/placeholder.jpg'">
+                    <img src="${hotel.image}" alt="${hotel.name}" onError="this.src='assets/images/hotels/lupitas.jpg'">
                 </div>
                 <div class="hotel-info">
                     <h3>${hotel.name}</h3>
