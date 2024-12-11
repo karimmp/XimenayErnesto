@@ -364,3 +364,72 @@
         grid-template-columns: 1fr;
     }
 }
+.flights-section {
+    padding: 4rem 2rem;
+    background: white;
+}
+
+.flights-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flights-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.flight-option {
+    padding: 2rem;
+    background: rgba(var(--color-beige-rgb), 0.1);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.flight-destination {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+}
+
+.flight-details {
+    font-family: var(--font-main);
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.transport-options {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: rgba(var(--color-beige-rgb), 0.1);
+    border-radius: 12px;
+}
+
+.transport-title {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+}
+
+.transport-list {
+    list-style: none;
+    padding: 0;
+}
+
+.transport-item {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background: white;
+    border-radius: 8px;
+    font-family: var(--font-main);
+}
+
+@media (max-width: 768px) {
+    .flights-grid {
+        grid-template-columns: 1fr;
+    }
+}
